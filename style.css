@@ -19,7 +19,7 @@ body {
 /* navigation */
 nav {
   background-color: var(--primary-color);
-  height: 12rem;
+  height: 11rem;
   border-bottom-left-radius: 1rem;
   padding: 1rem;
 }
