@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Road+Rage&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --primary-color: #10b981;
+  --secondary-color: #ede9fe;
+  --section-bg: #d1d5db;
+}
+
+body {
+  font-family: "Libre Baskerville", serif;
+}
+
+/* navigation */
+nav {
+  background-color: var(--primary-color);
+  height: 21vh;
+  border-bottom-left-radius: 1rem;
+  padding: 1rem;
+}
+
+nav ul {
+  text-align: right;
+  margin-top: 1.7rem;
+  font-size: 1.2rem;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li a {
+  text-decoration: none;
+  padding: 0.7rem 1rem;
+  color: var(--secondary-color);
+  font-weight: lighter;
+}
+
+nav h1 {
+  color: var(--secondary-color);
+  padding: 1rem;
+  padding-bottom: 2rem;
+}
+
+.link-active {
+  padding-bottom: 0.4rem;
+  font-weight: 1000;
+  box-shadow: 0 2px 5px rgb(104, 97, 97);
+}
+
+/* header */
+header {
+  text-align: center;
+  max-width: 80vw;
+  margin: auto;
+  margin-top: 5rem;
+}
+header img {
+  width: 400px;
+}
+
+header h1 {
+  padding-top: 2rem;
+  font-family: "Road Rage", cursive;
+}
+
+header h1 span {
+  color: var(--primary-color);
+  position: relative;
+  top: -5px;
+}
+
+/* sections */
+
+section {
+  text-align: center;
+  margin-top: 4rem;
+  padding: 5rem 2rem;
+}
+
+section h2 {
+  display: inline-block;
+  width: 40%;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  border-bottom: 5px dotted var(--primary-color);
+}
+
+section p {
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+}
+
+section p strong {
+  color: var(--primary-color);
+}
+
+.projects a,
+.blogs a {
+  position: relative;
+  top: 1.3rem;
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 2rem;
+  background-color: #d1fae5;
+  /* border: 3px solid rgb(70, 65, 65); */
+  padding: 0.4rem 0.4rem;
+  border-radius: 10px;
+}
+.blogs {
+  margin-bottom: 2rem;
+}
+.hover:hover {
+  background-color: var(--section-bg);
+}
+.off-white {
+  background-color: var(--section-bg);
+}
+
+/* footer */
+footer {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 1.4rem;
+  background-color: var(--primary-color);
+  border-top-right-radius: 1rem;
+}
+
+footer div {
+  font-size: 2rem;
+  font-family: "Road Rage", cursive;
+}
+
+footer ul {
+  padding: 1rem 0;
+}
+
+footer li {
+  display: inline-block;
+  font-size: 1.4rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(24, 42, 141);
+}
+
+/* project tab */
+.my-project-container {
+  margin-top: 0rem;
+  padding: 0 1rem;
+}
+.my-project {
+  text-align: left;
+  margin-top: 0rem;
+}
+
+.my-project h2 {
+  width: 100%;
+}
+
+.my-project a {
+  position: relative;
+  padding: 0.4rem 0.8rem;
+  margin-right: 1rem;
+  top: 1.3rem;
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 1.4rem;
+  background-color: #d1fae5;
+  /* border: 3px solid rgb(70, 65, 65); */
+  border-radius: 10px;
+}
