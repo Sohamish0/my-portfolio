@@ -182,3 +182,35 @@ footer a {
   /* border: 3px solid rgb(70, 65, 65); */
   border-radius: 10px;
 }
+
+/* blog */
+.header-blog h1 {
+  color: var(--primary-color);
+  margin: 1rem 0;
+  word-spacing: 0.3rem;
+  font-size: 3rem;
+}
+
+main section {
+  margin-top: 0.5rem;
+}
+
+main section h2 {
+  width: 80%;
+}
+
+footer span {
+  position: relative;
+  top: -9px;
+  right: 20px;
+  font-size: 1.5rem;
+  color: rgb(236, 83, 83);
+}
+
+.div-blog {
+  border: 3px dotted var(--primary-color);
+}
+
+.body-blog {
+  padding: 15px;
+}
