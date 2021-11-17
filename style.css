@@ -17,6 +17,11 @@ body {
 }
 
 /* navigation */
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+}
 nav {
   background-color: var(--primary-color);
   height: 11rem;
